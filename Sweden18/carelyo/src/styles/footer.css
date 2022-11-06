@@ -1,0 +1,127 @@
+ /* #footer{
+  padding: 50px 0 0 0;
+  background-color: rgb(243, 9, 40);
+ } */
+ .container-footer {
+    background-image: url(../image/Footer-b.png);
+     background-size: cover;
+      /* height: 30vh;  */
+    background-repeat: no-repeat;
+    width: 100%;
+
+      /* background-position: 50% 100%;   */
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  }
+  .foot-title{
+    font-weight: 700 , bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #071C35; 
+    margin-top: 4rem;
+  }
+  .nav-link{
+    font-weight: 400;
+   font-size: 14px;
+   color: #444444; 
+   opacity: 0.8;
+  }
+  .nav-link:hover{
+    transition: 200ms ease-in;
+    text-decoration: none;
+    color: rgb(0, 153, 255)
+
+  }
+  .container-copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem; 
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080;
+  }
+
+  /* .copyrigt {
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080
+    } */
+    
+    .btn.btn-rounded {
+      border-radius: 50px
+  }
+  
+  .footer-media {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: #C0C0C0;
+    width: 100%;
+    display: table;
+    align-items: center;
+  }
+   span.fa-stack:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+  span.fa-stack {
+    line-height: 36px;
+  }
+  span.fa-stack:nth-of-type(1) {
+    color: #3B5999;
+  }
+  span.fa-stack > i:nth-of-type(2) {
+    font-size: 14px;
+    
+  } 
+  
+  .bg-twitter {
+    color: #1C9DEC
+  }
+  .bg-linkedin {
+    color:  #3C86AD
+  }
+
+  
+  @media screen and (max-width: 992px) {
+    .container-copy{
+      display: flex; 
+      flex-direction: row;
+      
+    }
+    .container-footer {
+      background-image: url(../image/Footer-b.png);
+       background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 100%;
+      margin: auto;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    
+    .container-copy{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+     font-weight: 400;
+     font-size: 14px;
+     color: #808080 
+    
+    }
+    .container-footer {
+      background-image: url(../image/Footer-b.png);
+       background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 100%;
+      margin: auto;
+    }
+
+}

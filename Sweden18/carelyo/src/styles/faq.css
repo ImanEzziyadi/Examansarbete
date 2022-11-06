@@ -1,0 +1,40 @@
+/* .divider {
+  display: flex;
+  height: 1px;
+  background-color: rgb(244, 5, 5);
+  margin: 1rem 0
+} */
+
+.accordion-label-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* .accordion-under-label {
+  border: 1px solid #05a98b;
+  width: 100%
+} */
+
+.faq-text {
+  max-width: 64rem;
+ font-weight :400  regular;
+ font-size: 16px;
+ color: #858B95 ;
+}
+.accordion-label{
+  font-weight: 500, medium; 
+ font-size: 22px;
+}
+@media screen and (max-width: 992px)  {
+  .faq-text {
+    max-width: 40rem;
+   font-weight :400  regular;
+   font-size: 12px;
+   color: #858B95 ;
+  }
+  .accordion-label{
+    font-weight: 500, medium; 
+   font-size: 16px;
+  }
+   }

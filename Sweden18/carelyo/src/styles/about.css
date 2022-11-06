@@ -1,0 +1,103 @@
+
+#about-us {
+  padding-top: 3rem;
+  text-align: left;
+  height: 100vh;
+  
+}
+.about-title {
+  font-weight: 500;
+  font-size: 22px;   
+ display: flex;
+ align-items: center;
+ color: #FFBD3A;
+  margin-top: 3rem; 
+ padding: 2rem;
+}
+.about-title1 {
+  font-weight: 500;
+ font-size: 40px;
+ display: flex;
+ align-items: center;
+  color: #071C35;
+  padding: 1rem
+}
+
+
+
+
+#about-us .left-column {
+flex: 1;
+position: relative;
+} 
+
+#about-us .right-column {
+position: relative;
+flex: 1;
+} 
+
+.img-about{
+  height: auto;
+  width: 70%;
+  transition-property:  all;
+  transition-duration: 00.25s;
+  transition-timing-function: ease-in-out ;
+  cursor: pointer;
+  position: absolute;
+}
+.img-about:hover { 
+  /* background-image: url(images/iPhone\ X\ -\ Light.png); */
+  box-shadow: 50px 50px 50px #FFBA60;
+  border: 2px solid #FFBA60;
+  box-sizing: border-box;
+}
+.myAnimation {
+  width: 300px;
+  height: 300px;
+  position: relative;
+   left: 30px; 
+   top: 450px; 
+  z-index: 2;
+ 
+}
+@media screen and (max-width: 992px) {
+  #about-us {
+    text-align: left;
+    margin-top: 9rem;
+  }
+  .about-title1 {
+    font-weight: 500;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+    color: #071C35;
+    padding: 1rem
+  }
+  .right-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    }
+
+}
+@media screen and (max-width: 600px) {
+  
+    .container{
+      width: 100%;
+    }
+    .about-title1 {
+      font-weight: 500;
+     font-size: 35px;
+     display: flex;
+     align-items: center;
+      color: #071C35;
+      padding: 1rem
+    }
+    
+  
+}
+   
+  

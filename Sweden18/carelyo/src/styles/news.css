@@ -1,0 +1,126 @@
+.NewsUpdate {
+  padding-top: 4rem;
+    display: grid;
+    height: 100%;
+    place-items: center;
+  }
+ 
+  
+  .NewaUpdate-tittle{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFBD3A;
+    text-align: center;
+  }
+  .NewaUpdate-heading {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: #071C35;
+    padding: 2rem
+    }
+    .NewaUpdate-text{
+      font-weight: 400, regular;
+      font-size: 16px;
+      text-align: Center;
+      color:#858B95;
+      margin-bottom: 1rem;
+    }
+    .NewaUpdate-date{
+        margin-bottom: 1rem;
+        font-weight: 400;
+        font-size: 14px;
+         color: #858B95;
+    }
+   
+.wrapper-news {
+     max-width: 1200px;   
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+ .box-news{
+    width: calc(33% - 10px);
+    background: #fff;
+    padding: 25px;
+    border-radius: 2px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+  }
+   .box-news:hover {
+   box-shadow: 3px 1px 5px 5px #888888;
+  }
+  
+  .image-news{
+    /* height: 250px;
+    width: 300px; */
+    padding: 3px;
+    background: rgb(223, 228, 224);
+    /* border-radius: 50%; */
+  }
+  .image-news img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    border: 2px solid #fff;
+  }
+  .box:hover  .image-news img{
+    border-color: #fff;
+  }
+  .btn-news{
+   width: 184px;
+   height: 48px;
+   color: #858B95;
+
+  }
+
+  @media (max-width: 992px) {
+    .box-news{
+      width: calc(50% - 10px);
+      margin: 10px 0;
+    }
+    
+      .wrapper-news {
+        max-width: 1200px;  
+        margin: auto;
+        padding: 0 20px;
+  
+      }
+  }
+  @media (max-width: 600px) {
+    .box-news{
+      width: 100%;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        border-radius: 2px;
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+        transition-property: all;
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+    }
+    .image-news{
+      /* height: 250px;
+      width: 250px; */
+      padding: 3px;
+      background: rgb(223, 228, 224);
+      /* border-radius: 50%; */
+    }
+    .image-news img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      /* border-radius: 50%; */
+      border: 2px solid #fff;
+    }
+    
+  }
+   
+

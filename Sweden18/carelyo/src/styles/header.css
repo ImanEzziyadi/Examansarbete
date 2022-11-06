@@ -1,0 +1,88 @@
+
+ .container-home  {
+  background-image: url(../image/Rectangle.png);
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  height: 100vh;
+  margin: auto;
+  width: 100%
+}
+
+.show-title {
+  font-weight: 600 ;
+  color: #12233A;
+ font-size: 50px;
+ font-family: 'Roboto';
+
+}
+#showcase .left-column{
+  margin-top: 15rem; 
+ 
+}
+#showcase .right-column {
+  text-align: right
+}
+
+#showcase .right-column img {
+  height: auto;
+  width: 100%
+}
+.btn-yellow {  
+  margin-top: 2rem;
+ } 
+
+
+.to-top {
+  background: white;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#1f1f1f;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+
+ @media screen and (max-width: 992px) {
+  .left-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+  #showcase .left-column{
+    margin-top: 10rem; 
+    
+  }
+  .show-title {
+    font-weight: 600 ;
+    color: #12233A;
+   font-size: 35px;
+   font-family: 'Roboto';
+  
+  }
+ 
+  
+}
